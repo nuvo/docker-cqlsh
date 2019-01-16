@@ -11,8 +11,11 @@ and execute each `.cql` file found in the container `/scripts` path.
 
 ## Examples
 
-<details><summary>Standalone instance</summary>
+<details>
+  <summary>Standalone instance</summary>
+
 Run a `cassandra` container and connect to it
+
 ```sh
 $ docker run -d -p 9042:9042 cassandra
 $ docker run --rm -it -e CQLSH_HOST=localhost --net=host nuvo/docker-cqlsh bash
@@ -20,7 +23,10 @@ bash-4.4$ cqlsh -e "show host;"
 Connected to Test Cluster at localhost:9042.
 ```
 </details>
-<details><summary>Kubernetes job</summary>
+
+<details>
+  <summary>Kubernetes job</summary>
+
 ```yaml
 apiVersion: batch/v1
 king: Job
