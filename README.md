@@ -1,5 +1,8 @@
 # docker-cqlsh
 
+[![Docker Pulls](https://img.shields.io/docker/pulls/nuvo/docker-cqlsh.svg)](https://hub.docker.com/r/nuvo/docker-cqlsh/)
+[![license](https://img.shields.io/github/license/nuvo/docker-cqlsh.svg)](https://github.com/nuvo/docker-cqlsh/blob/master/LICENSE)
+
 Cqlsh in a container
 
 Some reasons why you might be interested:
