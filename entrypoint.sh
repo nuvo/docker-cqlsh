@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # defaults for cqlsh
-export CQLVERSION=${CQLVERSION:-"3.4.4"}
+export CQLVERSION=${CQLVERSION:-"3.4.5"}
 export CQLSH_HOST=${CQLSH_HOST:-"cassandra"}
 export CQLSH_PORT=${CQLSH_PORT:-"9042"}
 
