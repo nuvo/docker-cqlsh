@@ -13,7 +13,7 @@ for i in {1..5}; do
   if "${cqlsh[@]}" -e "show host;" 2> /dev/null; then
     break
   fi
-  echo "Can't establish connection, will retry again in $i sconds"
+  echo "Can't establish connection, will retry again in $i seconds"
   sleep $i
 done
 
