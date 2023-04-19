@@ -7,6 +7,7 @@ ENV CQLVERSION="3.4.6" \
     CQLSH_PORT="9042"
 
 RUN pip install -Ivq cqlsh==6.0.0 \
+    pip install futures \
     && echo 'alias cqlsh="cqlsh --cqlversion ${CQLVERSION} $@"' >> /.bashrc \
     && mkdir /.cassandra
 
