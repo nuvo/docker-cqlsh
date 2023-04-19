@@ -7,7 +7,6 @@ ENV CQLVERSION="3.4.6" \
     CQLSH_PORT="9042"
 
 RUN pip install -Ivq cqlsh==5.0.4 \
-    && apk add --no-cache bash \
     && echo 'alias cqlsh="cqlsh --cqlversion ${CQLVERSION} $@"' >> /.bashrc \
     && mkdir /.cassandra
 
