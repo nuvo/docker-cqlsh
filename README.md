@@ -53,7 +53,7 @@ Connected to Test Cluster at localhost:9042.
 
 ```yaml
 apiVersion: batch/v1
-king: Job
+kind: Job
 metadata:
   name: load-cql-files
 spec:
